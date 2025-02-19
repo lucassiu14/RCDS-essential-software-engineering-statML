@@ -36,7 +36,7 @@ If you wish to look *locally* on your own laptop, please install:
 Then, open VS Code on your laptop, and do the following:
 1. Click the **Source Control Panel** icon in the left side bar
 
-    <img src="fig/source-control-panel.png" width="25%"/>
+    <img src="resources/git/source-control-panel.png" width="25%"/>
 2. Click on **Clone Repository**
 3. Click **Clone from GitHub** when it appears at the top of the screen
 4. Enter `ImperialCollegeLondon/RCDS-essential-software-engineering-statML`
