@@ -14,11 +14,14 @@ This course will take place in an ICT computer room and so laptops are not requi
 
 The easiest way to run the course materials in a GitHub Codespace (instructions below), which can be done on a computer room computer for a face to face session, or your own laptop. This requires no setup in advance past the pre-course instructions above. 
 
-Alternatively, you may download the course materials on to your own computer, install [Visual Studio Code](https://code.visualstudio.com/) and install the following extensions within VS Code:
-* [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) 
-* [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
-* [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-* [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+Alternatively, you may download the course materials on to your own computer, and install:
+- [Visual Studio Code](https://code.visualstudio.com/) and the following extensions within VS Code:
+    * [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) 
+    * [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
+    * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+    * [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+- [Git](https://git-scm.com/downloads) and this additional extension within VS Code:
+    * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
 ## Opening a Codespace
 
