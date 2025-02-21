@@ -11,8 +11,9 @@ class test_quadratic(unittest.TestCase):
         self.assertEqual(len(quadratic_solver(-1, 0, 1)), 2)
 
     def test_zero_a_b(self):
+        # This syntax checks if the ValueError is raised where it is expected
         with self.assertRaises(ValueError):
             quadratic_solver(0, 0, 1)
 
     def test_zero_a(self):
-        self.assertEqual(quadratic_solver(0, 1, 1), [-1])
+        self.assertListEqual(quadratic_solver(0, 1, 1), [-1])
