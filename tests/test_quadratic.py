@@ -13,3 +13,6 @@ class test_quadratic(unittest.TestCase):
     def test_zero_a_b(self):
         with self.assertRaises(ValueError):
             quadratic_solver(0, 0, 1)
+
+    def test_zero_a(self):
+        self.assertEqual(quadratic_solver(0, 1, 1), [-1])
