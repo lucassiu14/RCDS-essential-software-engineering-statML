@@ -20,9 +20,3 @@ def pivot_sort(arr):
         greater_than_pivot = [x for x in arr[1:] if x > pivot]
         # Recursively sort the sublists and concatenate them with the pivot
         return pivot_sort(less_than_pivot) + [pivot] + pivot_sort(greater_than_pivot)
-    
-# Example usage
-#if __name__ == "__main__":
-#    sample_list = [34, 7, 23, 32, 5, 62]
-#    sorted_list = pivot_sort(sample_list)
-#    print("Sorted list:", sorted_list)
